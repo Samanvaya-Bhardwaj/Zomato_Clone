@@ -1,0 +1,153 @@
+header{
+    background-image: url(/Imgaes/Back\ Img.jpg);
+    height: 450px;
+    width: 100%;
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display: inline-block;
+ 
+}
+.left img{
+    width: 140px;
+}
+.left div{
+    text-align: center;
+}
+.right{
+    display: block;
+    width: 50%;
+    margin: 18px 600px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    color: rgb(13, 3, 3);
+   display: inline-block;
+   font-size: 20px;
+   text-align: right;
+}
+.navbar li a { 
+  color: white;
+  text-decoration: none;
+  padding: 30px 20px;
+}
+.navbar li a:hover, .navbar li a.active { 
+ text-decoration: underline;
+ color: rgb(233, 219, 95);
+}
+.section h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 80px;
+    color: white;
+}
+.section div{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.Input select{
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+}
+.Input input{
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+}
+.card{
+         border: 1px solid gray;
+          background-color:white;
+          margin: 4px;
+          margin-top: 50px;
+          border-radius: 1px;
+          display: inline-block;
+          width: 500px;
+          height: 300px;
+          box-sizing: border-box;
+          margin-left: 80px;
+          border-radius: 20px;
+}
+.card img{
+    height: 180px;
+    width: 100%;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.card-title{
+    margin-left: 10px;
+}
+.heading{
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 80px;
+    color: white;
+}
+.collection div{
+    padding-bottom: 10px;
+    color: black;
+}
+.link{
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+.link img{
+    border-radius: 10px;
+}
+.collection{
+    height: 450px;
+    border-radius: 20px;
+    margin: 50px 50px;
+    background-color: rgb(242, 245, 248);
+}
+.images{
+    display: flex;
+}
+section{
+    display: flex;
+}
+section img{
+    display: block;
+    margin-left: 250px;
+    border-radius: 20px;
+    height: 400px;
+    width: 250px;
+
+}
+.box2{
+    margin-left: 20px;
+}
+.btn{
+    margin-left: 70px;
+    background-color: green;
+    font-size: x-large;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(42, 141, 222);
+}
+.app{
+    display: flex;
+}
+.app img{
+    height: 100px;
+    width: 200px;
+    margin-left: 3px;
+}
+.footer{
+    margin-top: 50px;
+    padding: 20px;
+    height: 90px;
+    background-color: black;
+     color: aliceblue;
+     text-align: center;
+ }
